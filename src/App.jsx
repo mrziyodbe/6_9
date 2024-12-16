@@ -12,8 +12,6 @@ import TourUi from "./components/tour";
 import TooltipUi from "./components/tooltip";
 import MessageUi from "./components/message";
 import ResultUi from "./components/result";
-import CalendarUi from "./components/calendar";
-
 function App() {
   return (
     <>
@@ -35,7 +33,6 @@ function App() {
 
           <ResultUi></ResultUi>
         </div>
-        <CalendarUi></CalendarUi>
       </div>
     </>
   );
